@@ -1,0 +1,194 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body & Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4; /* Latar netral supaya kontras dengan tema */
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Main container */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #004D98, #A50044); /* Biru + Merah Barca */
+    color: #ffdd00; /* Kuning highlight */
+    text-align: center;
+    padding: 30px 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav a {
+    color: #ffdd00;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Sections */
+main section {
+    background: white;
+    margin: 25px 0;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+h2 {
+    color: #004D98; /* Biru Barca */
+    margin-bottom: 15px;
+    border-bottom: 3px solid #A50044; /* Merah Barca */
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+/* Article */
+article h3 {
+    margin-top: 10px;
+    color: #A50044; /* Merah Barca */
+}
+
+article img, article iframe {
+    width: 10+0%;
+    max-width: 600px;
+    margin: 10px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #004D98;
+    color: #ffdd00;
+}
+
+table tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+table tfoot td {
+    font-style: italic;
+    color: #555;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+dl dt {
+    font-weight: 600;
+    color: #004D98;
+}
+
+dl dd {
+    margin-bottom: 10px;
+}
+
+/* Aside */
+aside {
+    background: #A50044;
+    color: #ffdd00;
+    padding: 15px;
+    margin: 20px 0;
+    border-left: 6px solid #004D98;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Form Kontak */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #004D98;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #A50044;
+    box-shadow: 0 0 10px rgba(165,0,68,0.3);
+    outline: none;
+}
+
+form button {
+    background: linear-gradient(to right, #004D98, #A50044);
+    color: #ffdd00;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #A50044, #004D98);
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #004D98;
+    color: #ffdd00;
+    padding: 25px 20px;
+    border-radius: 20px 20px 0 0;
+    margin-top: 30px;
+    box-shadow: 0 -4px 15px rgba(0,0,0,0.2);
+}
+
+footer audio {
+    margin-top: 15px;
+    outline: none;
+}
