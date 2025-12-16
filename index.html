@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portofolio pribadi Heri Kurniawan, menampilkan profil, keterampilan, pengalaman, dan karya.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Portofolio: Heri Kurniawan">
+    <meta property="og:image" content="foto-profil.jpg">
+
+    <title>Portofolio Heri Kurniawan</title>
+    <!-- Link CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/img.jpeg" width="200%" height="200%">
+</head>
+<body>
+    <header>
+        <h1 tabindex="0">Heri Kurniawan</h1>
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <li><a href="#about">Tentang Saya</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#experience">Pengalaman</a></li>
+                <li><a href="#projects">Projek</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="css.html">Latihan CSS</a></li>
+                 <li><a href="css.html">Tugas Kuliah</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <article>
+                <h2>Tentang Saya</h2>
+                <img src="images/profil.jpeg" alt="Foto Heri Kurniawan, seorang pengembang web" width="200">
+                <p>Halo, saya Heri Kurniawan, tapi teman-teman biasanya memanggil saya Kakang. Saya seseorang yang suka belajar hal baru, terutama seputar teknologi, pemrograman, dan pengembangan web.
+
+Di luar dunia coding, saya punya satu hal yang benar-benar saya sukai: FC Barcelona. Saya sudah ngefans sejak lama karena cara bermainnya yang khas, penuh kreativitas, dan selalu seru ditonton. Barcelona bukan cuma klub bola favorit, tapi juga jadi motivasi buat saya dalam bekerja—selalu konsisten, disiplin, dan bermain cantik dalam setiap proses.
+
+Saya berharap bisa terus berkembang dalam dunia teknologi sambil tetap menikmati hobi saya sebagai culés sejati.</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>Kerja Tim</li>
+                <li>Semangat Belajar Tinggi</li>
+                <li>Antusias Sepak Bola (Fans Barcelona)</li>
+            </ul>
+            <dl>
+                <dt>Kerja Tim</dt>
+                <dd>Terbiasa bekerja sama, mendengarkan pendapat orang lain, dan menjaga kekompakan dalam tim.</dd>
+                <dt>Semangat Belajar Tinggi</dt>
+                <dd>Terus mengembangkan diri, khususnya dalam bidang teknologi dan pemrograman.</dd>
+                <dt>Antusias Sepak Bola (Fans Barcelona)</dt>
+                <dd>Punya pengetahuan baik tentang FC Barcelona dan mampu menganalisis pertandingan maupun strategi tim.</dd>
+            </dl>
+        </section>
+
+        <section id="experience">
+            <h2>Riwayat Pendidikan & Pengalaman</h2>
+            <table>
+                <caption>Riwayat Pendidikan & Pengalaman</caption>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Sekolah</th>
+                        <th>Posisi / Jurusan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2011 - 2017</td>
+                        <td>Mi Islamiyah</td>
+                        <td>Agama islam/umum</td>
+                    </tr>
+                    <tr>
+                        <td>2017 - 2020</td>
+                        <td>Mts DDI</td>
+                        <td>IPS</td>
+                    </tr>
+                    <tr>
+                        <td>2020 - 2023</td>
+                        <td>Ulya Baabussalam</td>
+                        <td>IPS</td>
+                    </tr>
+                     <tr>
+                        <td>2023 - 2025</td>
+                        <td>Gapyear</td>
+                        <td>Mengabdi</td>
+                    </tr>
+                    <tr>
+                        <td>2025 - Sekarang</td>
+                        <td>Universitas Mayasari Bakti</td>
+                        <td>Teknik Informatika</td>
+                    </tr>
+                
+                    <tr>
+                        <td colspan="3">Catatan:Aktif dalam segala kegiatan</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">Informasi terakhir diperbarui <time datetime="2025-11-18">18 November 2025</time></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section id="projects">
+            <h2>Projek</h2>
+            <article>
+                <h3>Website Portofolio</h3>
+                <img src="project-portfolio.jpg" alt="Tampilan proyek website portofolio">
+                <p>Lihat <a href="https://github.com/herikurniawan/portfolio" target="_blank">proyek di GitHub</a>.</p>
+            </article>
+            <article>
+                <h3>Vidio Goat Barcelona</h3>
+                <iframe width="560" height="315" src="https://youtu.be/SpJhx8Kragw?si=HTb7KIHnjcgFU33m" title="Vidio Goat Barcelona" frameborder="0" allowfullscreen></iframe>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Info Tambahan</h2>
+            <p>Anda dapat menghubungi saya untuk kerjasama, Menonton barcelona, atau konsultasi terkait pengembangan web.</p>
+        </aside>
+
+        <section id="contact">
+            <h2>Kontak</h2>
+            <form action="#" method="post" aria-labelledby="contact">
+                <fieldset>
+                    <legend>Form Kontak</legend>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required minlength="3"><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="phone">Nomor:</label>
+                    <input type="tel" id="phone" name="phone" required maxlength="15"><br>
+
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" required minlength="10"></textarea><br>
+
+                    <label for="agreement">
+                        <input type="checkbox" id="agreement" name="agreement" required>
+                        Saya setuju menerima informasi
+                    </label><br>
+
+                    <p>Jenis Kontak:</p>
+                    <input type="radio" id="suggestion" name="contactType" value="saran" required>
+                    <label for="suggestion">Saran</label><br>
+
+                    <input type="radio" id="question" name="contactType" value="pertanyaan">
+                    <label for="question">Pertanyaan</label><br>
+
+                    <button type="submit">Kirim</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Heri Kurniawan. Semua hak cipta dilindungi.</p>
+        <audio controls>
+            <source src="audio-salam.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung elemen audio.
+        </audio>
+    </footer>
+</body>
+</html>
